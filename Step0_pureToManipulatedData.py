@@ -85,6 +85,6 @@ def transform_squat_data(input_file_path, output_file_path):
 
 # # --- 실제 파일 사용 ---
 # # 위 테스트 부분을 주석 처리하고 아래 코드의 주석을 해제하여 사용하세요.
-input_filename = 'dataset/correct_pure_data.csv'
-output_filename = 'dataset/correct_manipulated_data.csv'
+input_filename = 'dataset/csv/correct_pure_data.csv'
+output_filename = 'dataset/csv/correct_manipulated_data.csv'
 transform_squat_data(input_filename, output_filename)

@@ -141,8 +141,8 @@ def process_squat_data_pipeline(input_df, output_filename='incorrect_final_outpu
 # --- 실제 파일 사용 ---
 # 위 테스트 부분을 주석 처리하고 아래 코드의 주석을 해제하여 사용하세요.
 try:
-    input_df_from_file = pd.read_csv('dataset/correct_manipulated_data.csv', index_col='frame')
-    process_squat_data_pipeline(input_df_from_file, 'dataset/correct_final_output.csv')
+    input_df_from_file = pd.read_csv('dataset/csv/correct_manipulated_data.csv', index_col='frame')
+    process_squat_data_pipeline(input_df_from_file, 'dataset/csv/correct_final_output.csv')
 except FileNotFoundError:
     print("오류: 입력 파일을 찾을 수 없습니다. 파일 경로를 확인해주세요.")
 

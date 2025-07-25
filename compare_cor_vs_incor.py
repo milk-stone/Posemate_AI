@@ -111,8 +111,8 @@ def plot_angle_kde(df):
 
 # --- 메인 실행 부분 ---
 
-correct_filename = 'dataset/correct_final_output.csv'
-incorrect_filename = 'dataset/incorrect_final_output.csv'
+correct_filename = 'dataset/csv/correct_final_output.csv'
+incorrect_filename = 'dataset/csv/incorrect_final_output.csv'
 combined_data_from_files = load_and_label_data(correct_filename, incorrect_filename)
 if combined_data_from_files is not None:
     plot_average_poses(combined_data_from_files)
