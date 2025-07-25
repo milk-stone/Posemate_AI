@@ -9,3 +9,10 @@ QI AI Entrepreneurship Program - TEAM 7
 ## 프로토 타입
 - 스쿼트 운동에 대해서 자세의 올바름 판단 및 피드백 제공
 
+## 사용 방법
+
+1. `Video_to_pure_csv.py`
+
+```shell
+python3 Video_to_pure_csv.py --video "동영상 파일 이름" --label "correct or incorrect"
+```
