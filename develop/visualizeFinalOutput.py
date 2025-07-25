@@ -107,7 +107,7 @@ def plot_angle_boxplots(df):
 
 # 제공된 최종 데이터를 문자열로 저장하여 사용합니다.
 
-df = pd.read_csv("dataset/csv/incorrect_final_output.csv")
+df = pd.read_csv("../dataset/csv/incorrect_final_output.csv")
 
 # 시각화 함수 호출
 plot_squat_poses(df)

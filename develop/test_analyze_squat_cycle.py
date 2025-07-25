@@ -115,7 +115,7 @@ def plot_squat_analysis(df, peaks, troughs):
 # --- 메인 실행 부분 ---
 
 # CSV 데이터를 읽어 데이터프레임으로 변환하고 'frame'을 인덱스로 설정합니다.
-input_df = pd.read_csv("dataset/csv/incorrect_manipulated_data.csv", index_col='frame')
+input_df = pd.read_csv("../dataset/csv/incorrect_manipulated_data.csv", index_col='frame')
 
 # 1. 스쿼트 분석 함수 실행
 # prominence와 distance는 데이터의 스케일과 스쿼트 속도에 따라 조절이 필요할 수 있습니다.

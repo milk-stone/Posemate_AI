@@ -67,9 +67,9 @@ def create_custom_balanced_dataset(correct_path, incorrect_path, output_path, ta
 # --- 실제 파일 사용 ---
 # 로컬에 'dataset' 폴더가 있고 그 안에 파일들이 있다고 가정합니다.
 # 만약 파일이 다른 곳에 있다면 경로를 수정해주세요.
-correct_filename = 'dataset/csv/correct_final_output.csv'
-incorrect_filename = 'dataset/csv/incorrect_final_output.csv'
-output_filename = 'dataset/csv/oversampled_merged_data.csv'
+correct_filename = '../dataset/csv/correct_final_output.csv'
+incorrect_filename = '../dataset/csv/incorrect_final_output.csv'
+output_filename = '../dataset/csv/oversampled_merged_data.csv'
 
 # 각 클래스별 550개, 총 1100개의 데이터셋 생성
 create_custom_balanced_dataset(correct_filename, incorrect_filename, output_filename, target_samples_per_class=550)
